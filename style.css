@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* background-color: black; */
+    /* color: white; */
+}
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 30px;
+}
+#mybtn1{
+    width: 90px;
+    height: 20px;
+    border: 2px solid black;
+    border-radius: 5%;
+}
+#mybtn1:hover{
+    cursor: pointer;
+}
+#mybtn2{
+    width: 90px;
+    height: 20px;
+    border: 2px solid black;
+    border-radius: 5%;
+}
+#mybtn2:hover{
+    cursor: pointer;
+}
+.color:hover{
+    cursor: pointer;
+
+
+}
